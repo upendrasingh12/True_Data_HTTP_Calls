@@ -8,17 +8,17 @@ import xlsxwriter
 
 
 try:
-    pubip = open("/Users/upendrasingh/Documents/Projects/TrueData/pubip.txt", "r").read()
+    pubip = open("pubip.txt", "r").read()
 except IOError:
     print("pubip.txt file does not exist")    
 
 try:
-    userid = open("/Users/upendrasingh/Documents/Projects/TrueData/userid.txt", "r").read()
+    userid = open("userid.txt", "r").read()
 except IOError:
     print("userid.txt file does not exist")  
 
 try:
-    password = open("/Users/upendrasingh/Documents/Projects/TrueData/password.txt", "r").read()
+    password = open("password.txt", "r").read()
 except IOError:
     print("password.txt file does not exist")     
 
